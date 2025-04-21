@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV{ width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(173, 230, 184);
+  margin-top: 20px;
+}
+
+</style>
+</head>
+
+<body style="border:100px none;padding:0px;margin:60px; background-repeat:repeat-x;font-family:Arial;background-position:center top;font-size:16px;">
+    
+
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<button onclick="myFunction()" title="Si va dispare ce este scris in spatiu ">Try it</button>
+
+<div id="myDIV">
+This is my DIV element. Deci să scriem : -------Hello </p>
+Dacă avem  nevoie de vreun program AppSource Brand Microsoft care spune dacă e gratuit, avem <a href="https://appsource.microsoft.com/en-us/marketplace/apps?product=word" title="">Pagina Microsoft </a>    </p>
+Chestia Asta e scrisă în Babel <a href="https://babeljs.io/docs/usage#configuration" title="" > Babel este un compilator Java Script ..Configurare .</a> </p>
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property 
+is set to "none".</p>Adica zice ca :</p>Elementul nu va ocupa spațiu atunci când proprietatea de afișare este setată la „none”. </p>
+Pentru ce este utilă această spațiere să-i zicem așa.. ? De exemplu ..scriem în spațiu o succesiune de instrucțiuni .. ,de rețete ,..etc.  </p>
+Să dăm un exemplu : Una dintre comenzile rapide din Dosarul Uzuale de pe Desktop, este <a href="c:\Users\ghile\OneDrive\Desktop\Uzuale\comexp - Comandă rapidă.lnk" title="Rulez comanda la Căsuța Rulare .">Component services   .</a> Event viewer, Custom View ,Administrative Event. Face trimitere la Asistență Microsoft  ..</p>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+   
+
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+      Read this page for starting a new React project with JSX:
+      https://react.dev/learn/start-a-new-react-project
+
+      Read this page for adding React with JSX to an existing project:
+      https://react.dev/learn/add-react-to-an-existing-project
+    -->
+</body>
+</html>
